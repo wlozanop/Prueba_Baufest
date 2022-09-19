@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="dd9e9fdb65a32ceb978741fd733dbbdf2df8d1eb44f572cc60ae86283e3c19ee.html">Validacion De Compra En DEMOBLAZE</a></span>
+                > <span class="truncate-60"><a
+                    href="2dfae7ba32e187cb7e635b9d51c80ed28f68ccb2721b76dab4d95f96b28dc838.html">Accediendo al Home de DEMOBLAZE comprar con usuario nuevo </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-09-2022 12:29</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validacion De Compra En DEMOBLAZE</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                yo como usuario necesito realizar una compra de una laptop modelo MAC
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="7073f80427544caa1c8cf3814f3c7e130315bd668e40f504f068940d13704980.html">Blaze2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0b9a55ecf7196c32ce3d9f24d969ffba372c0fcb4bd22977302e4420d68117f5.html">DEMOBLAZE
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Accediendo al Home de DEMOBLAZE comprar con usuario nuevo
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">When Ingresamos a la cuenta del usuario clic en Log in<br>And luego ingresar el correo "&lt;sCorreo&gt;" y la clave "&lt;sClave&gt;"<br>And validar que ingresamos al perfil del usuario "&lt;sMensajeBienvenida&gt;"<br>And dar clic en Laptop<br>And Luego seleccionamos la laptop Mac<br>And Luego damos clic en el boton Agregar al carrito<br>Then Validar que el producto se haya añadido con exito</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="b0c5797ed8a492fd31a0dd76b22284be5cd74dc9393c6b831f7e39c0721f4816.png" title=" Example #1: {sCorreo=Argelio_01, sClave=Peru456+, sMensajeBienvenida=Welcome Argelio_01}" width="1920"/>
+                <img src="b0c5797ed8a492fd31a0dd76b22284be5cd74dc9393c6b831f7e39c0721f4816.png" title=" Given Cargar la pagina de demoBlaze" width="1920"/>
+                <img src="b0c5797ed8a492fd31a0dd76b22284be5cd74dc9393c6b831f7e39c0721f4816.png" title=" Cargar pagina demo blaze" width="1920"/>
+                <img src="b0c5797ed8a492fd31a0dd76b22284be5cd74dc9393c6b831f7e39c0721f4816.png" title=" Given Cargar la pagina de demoBlaze (completed)" width="1920"/>
+                <img src="43d74615b1d55d2ae8a5ab997516b0d708c95bc25811d32ca4599bf73dea07af.png" title=" When Ingresamos a la cuenta del usuario clic en Log in" width="1920"/>
+                <img src="43d74615b1d55d2ae8a5ab997516b0d708c95bc25811d32ca4599bf73dea07af.png" title=" Dar clic login" width="1920"/>
+                <img src="43d74615b1d55d2ae8a5ab997516b0d708c95bc25811d32ca4599bf73dea07af.png" title=" When Ingresamos a la cuenta del usuario clic en Log in (completed)" width="1920"/>
+                <img src="e8dc249b3b7ac9db8665b42244153fe68c9b4c3939bda40316e168d7a89073c6.png" title=" And luego ingresar el correo &quot;Argelio_01&quot; y la clave &quot;Peru456+&quot;" width="1920"/>
+                <img src="e8dc249b3b7ac9db8665b42244153fe68c9b4c3939bda40316e168d7a89073c6.png" title=" Ingresar user pass: Argelio_01, Peru456+" width="1920"/>
+                <img src="e8dc249b3b7ac9db8665b42244153fe68c9b4c3939bda40316e168d7a89073c6.png" title=" And luego ingresar el correo &quot;Argelio_01&quot; y la clave &quot;Peru456+&quot; (completed)" width="1920"/>
+                <img src="e8dc249b3b7ac9db8665b42244153fe68c9b4c3939bda40316e168d7a89073c6.png" title=" And validar que ingresamos al perfil del usuario &quot;Welcome Argelio_01&quot;" width="1920"/>
+                <img src="e8dc249b3b7ac9db8665b42244153fe68c9b4c3939bda40316e168d7a89073c6.png" title=" Validar perfil usuario: Welcome Argelio_01" width="1920"/>
+                <img src="e8dc249b3b7ac9db8665b42244153fe68c9b4c3939bda40316e168d7a89073c6.png" title=" And validar que ingresamos al perfil del usuario &quot;Welcome Argelio_01&quot; (completed)" width="1920"/>
+                <img src="77fd5bab6d752c276a14e86cebf0884c03df0ce902529728c77084f4e27ac990.png" title=" And dar clic en Laptop" width="1920"/>
+                <img src="77fd5bab6d752c276a14e86cebf0884c03df0ce902529728c77084f4e27ac990.png" title=" Clic laptops" width="1920"/>
+                <img src="77fd5bab6d752c276a14e86cebf0884c03df0ce902529728c77084f4e27ac990.png" title=" And dar clic en Laptop (completed)" width="1920"/>
+                <img src="85e9325b88d9c919d9273d2e50cf76cf3e91bfde28dc92fa70e77a1454d85086.png" title=" And Luego seleccionamos la laptop Mac" width="1920"/>
+                <img src="85e9325b88d9c919d9273d2e50cf76cf3e91bfde28dc92fa70e77a1454d85086.png" title=" Seleccion laptop" width="1920"/>
+                <img src="85e9325b88d9c919d9273d2e50cf76cf3e91bfde28dc92fa70e77a1454d85086.png" title=" And Luego seleccionamos la laptop Mac (completed)" width="1920"/>
+                <img src="b57b2cca301c639f42b3eddf705437a997776ad6975946c816e18108dbf537fb.png" title=" And Luego damos clic en el boton Agregar al carrito" width="1920"/>
+                <img src="0f1c4a3399c86e55e54a6919dd478b37f6c8ed7f51d98500f63a30033acb5b6d.png" title=" Then Validar que el producto se haya a&ntilde;adido con exito" width="1920"/>
+                <img src="0f1c4a3399c86e55e54a6919dd478b37f6c8ed7f51d98500f63a30033acb5b6d.png" title=" Validar producto carrito" width="1920"/>
+                <img src="0f1c4a3399c86e55e54a6919dd478b37f6c8ed7f51d98500f63a30033acb5b6d.png" title=" Then Validar que el producto se haya a&ntilde;adido con exito (completed)" width="1920"/>
+                <img src="0f1c4a3399c86e55e54a6919dd478b37f6c8ed7f51d98500f63a30033acb5b6d.png" title=" Example #1: {sCorreo=Argelio_01, sClave=Peru456+, sMensajeBienvenida=Welcome Argelio_01} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.54</span>
+</div>
+</body>
+</html>

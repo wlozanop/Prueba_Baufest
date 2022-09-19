@@ -1,0 +1,172 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6764295200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Cargar la pagina de demoBlaze",
+            "match": {
+              "location": "DemoBlazeStepDefinition.Cargar_la_pagina_de_demoBlaze()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 157203500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "apiStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Accediendo al Home de DEMOBLAZE comprar con usuario nuevo",
+        "description": "",
+        "id": "validacion-de-compra-en-demoblaze;accediendo-al-home-de-demoblaze-comprar-con-usuario-nuevo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2373698900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Ingresamos a la cuenta del usuario clic en Log in",
+            "match": {
+              "location": "DemoBlazeStepDefinition.ingresamos_a_la_cuenta_del_usuario_clic_en_Log_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4839899900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "luego ingresar el correo \"Argelio_01\" y la clave \"Peru456+\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Argelio_01",
+                  "offset": 26
+                },
+                {
+                  "val": "Peru456+",
+                  "offset": 50
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.luego_ingresar_el_correo_y_la_clave(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1476821300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "validar que ingresamos al perfil del usuario \"Welcome Argelio_01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome Argelio_01",
+                  "offset": 46
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.validar_que_ingresamos_al_perfil_del_usuario(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2533061100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "dar clic en Laptop",
+            "match": {
+              "location": "DemoBlazeStepDefinition.dar_clic_en_Laptop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2914334600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Luego seleccionamos la laptop Mac",
+            "match": {
+              "location": "DemoBlazeStepDefinition.luego_seleccionamos_la_laptop_Mac()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2119526100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Luego damos clic en el boton Agregar al carrito",
+            "match": {
+              "location": "DemoBlazeStepDefinition.luego_damos_clic_en_el_boton_Agregar_al_carrito()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7003659000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Validar que el producto se haya añadido con exito",
+            "match": {
+              "location": "DemoBlazeStepDefinition.validar_que_el_producto_se_haya_añadido_con_exito()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DEMOBLAZE"
+          },
+          {
+            "name": "@BLAZE2"
+          }
+        ]
+      }
+    ],
+    "name": "Validacion de compra en DEMOBLAZE",
+    "description": "        yo como usuario necesito realizar una compra de una laptop modelo MAC",
+    "id": "validacion-de-compra-en-demoblaze",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Web.demoblaze/demoBlaze.feature",
+    "tags": [
+      {
+        "name": "@DEMOBLAZE",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

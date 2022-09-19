@@ -1,0 +1,28 @@
+@DEMOBLAZE
+Feature: Validacion de compra en DEMOBLAZE
+        yo como usuario necesito realizar una compra de una laptop modelo MAC
+
+  @BLAZE2
+  Scenario Outline: Accediendo al Home de DEMOBLAZE comprar con usuario nuevo [90m# src/test/resources/Web.demoblaze/demoBlaze.feature:18[0m
+    [36mWhen Ingresamos a la cuenta del usuario clic en Log in[0m
+    [36mAnd luego ingresar el correo "<sCorreo>" y la clave "<sClave>"[0m
+    [36mAnd validar que ingresamos al perfil del usuario "<sMensajeBienvenida>"[0m
+    [36mAnd dar clic en Laptop[0m
+    [36mAnd Luego seleccionamos la laptop Mac[0m
+    [36mAnd Luego damos clic en el boton Agregar al carrito[0m
+    [36mThen Validar que el producto se haya añadido con exito[0m
+
+    Examples: 
+
+  Background:                           [90m# src/test/resources/Web.demoblaze/demoBlaze.feature:5[0m
+    [32mGiven [0m[32mCargar la pagina de demoBlaze[0m [90m# DemoBlazeStepDefinition.Cargar_la_pagina_de_demoBlaze()[0m
+
+  @DEMOBLAZE @BLAZE2
+  Scenario Outline: Accediendo al Home de DEMOBLAZE comprar con usuario nuevo [90m# src/test/resources/Web.demoblaze/demoBlaze.feature:29[0m
+    [32mWhen [0m[32mIngresamos a la cuenta del usuario clic en Log in[0m                    [90m# DemoBlazeStepDefinition.ingresamos_a_la_cuenta_del_usuario_clic_en_Log_in()[0m
+    [32mAnd [0m[32mluego ingresar el correo "[0m[32m[1mArgelio_01[0m[32m" y la clave "[0m[32m[1mPeru456+[0m[32m"[0m           [90m# DemoBlazeStepDefinition.luego_ingresar_el_correo_y_la_clave(String,String)[0m
+    [32mAnd [0m[32mvalidar que ingresamos al perfil del usuario "[0m[32m[1mWelcome Argelio_01[0m[32m"[0m     [90m# DemoBlazeStepDefinition.validar_que_ingresamos_al_perfil_del_usuario(String)[0m
+    [32mAnd [0m[32mdar clic en Laptop[0m                                                    [90m# DemoBlazeStepDefinition.dar_clic_en_Laptop()[0m
+    [32mAnd [0m[32mLuego seleccionamos la laptop Mac[0m                                     [90m# DemoBlazeStepDefinition.luego_seleccionamos_la_laptop_Mac()[0m
+    [32mAnd [0m[32mLuego damos clic en el boton Agregar al carrito[0m                       [90m# DemoBlazeStepDefinition.luego_damos_clic_en_el_boton_Agregar_al_carrito()[0m
+    [32mThen [0m[32mValidar que el producto se haya añadido con exito[0m                    [90m# DemoBlazeStepDefinition.validar_que_el_producto_se_haya_añadido_con_exito()[0m
